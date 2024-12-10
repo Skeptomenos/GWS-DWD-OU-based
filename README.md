@@ -1,15 +1,17 @@
 # GWS-DWD-OU-based
 Google Workspace Domain-wide-delegation OU-Based without secret key 
 
-Setup steps
+## Setup steps
 
-Enable and configure Google Workspace Marketplace SDK
-https://console.cloud.google.com/apis/api/appsmarket-component.googleapis.com/googleapps_sdk
-→ Enable OAuth Consent Screen and set to “internal” if needed
-App Configuration
-App Visibility: Private + Unlisted
-Installation Settings: Admin Only Install
-Select one App Integration
+- Enable and configure Google Workspace Marketplace SDK
+- https://console.cloud.google.com/apis/api/appsmarket-component.googleapis.com/googleapps_sdk
+
+ - → Enable OAuth Consent Screen and set to “internal” if needed
+ ### App Configuration
+ - App Visibility: Private + Unlisted
+ - Installation Settings: Admin Only Install
+
+ - Select one App Integration
 If you don’t need one, select Web App and enter a URL
 Add needed API Scopes
 Leave the default for email/profile
